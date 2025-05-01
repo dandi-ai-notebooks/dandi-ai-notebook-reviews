@@ -1,0 +1,14 @@
+{
+    "thinking": "Notebook 2 is superior to Notebook 1 because it offers a more comprehensive and clearly structured guide to exploring the Dandiset. Notebook 2 provides detailed descriptions of each step, including connecting to the DANDI API, listing assets, loading NWB files, and visualizing various data types such as raw electrophysiology, spike times, and trial information. The visualizations in Notebook 2 are enhanced with better labeling and contextual information, making them easier to interpret. Additionally, Notebook 2 includes a more thorough summary of findings and suggests multiple avenues for future analysis, which provides a more complete educational experience for the user. Notebook 2 also includes cleanup code and makes it clear that it is AI generated.",
+    "selection": 2,
+    "total_prompt_tokens": 9832,
+    "total_completion_tokens": 163,
+    "metadata": {
+        "model": "google/gemini-2.0-flash-001",
+        "timestamp": "2025-05-01 11:11:06",
+        "system_info": {
+            "platform": "Linux-6.8.0-58-generic-x86_64-with-glibc2.35",
+            "hostname": "system76-pc"
+        }
+    }
+}

@@ -1,4 +1,4 @@
-export DANDI_AI_NOTEBOOKS_3_DIR=/home/magland/src/dandi-ai-notebooks-3
+export DANDI_AI_NOTEBOOKS_3_DIR=../dandi-ai-notebooks-3
 # export DANDISET_ID=000690
 export DANDISET_ID=001375
 export MODEL=google/gemini-2.5-pro-preview-03-25

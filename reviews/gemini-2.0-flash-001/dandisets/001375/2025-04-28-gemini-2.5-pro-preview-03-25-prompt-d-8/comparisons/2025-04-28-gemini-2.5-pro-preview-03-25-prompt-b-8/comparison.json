@@ -1,0 +1,14 @@
+{
+    "thinking": "Both notebooks provide a good introduction to exploring the Dandiset 001375. They both cover the basic steps of loading the Dandiset, exploring the NWB file, and visualizing the data. Overall, both notebooks were very similar.\n\nHowever, Notebook 2 handles scaling the raw electrophysiology data more robustly, inferring appropriate unit scaling. It also includes better formatting for the plots, such as removing the constant offset visualization on the y-axis of the raw electrophysiology data plot. Also, Notebook 2 accesses trials data more robustly, first checking for 'trials' in `nwb.intervals` and falling back to `nwb.trials` if necessary. Notebook 2 also includes code to close the NWB file resources, properly cleaning up objects from memory.\n\nFor those reasons, Notebook 2 is slightly better.",
+    "selection": 2,
+    "total_prompt_tokens": 13571,
+    "total_completion_tokens": 197,
+    "metadata": {
+        "model": "google/gemini-2.0-flash-001",
+        "timestamp": "2025-05-01 11:12:02",
+        "system_info": {
+            "platform": "Linux-6.8.0-58-generic-x86_64-with-glibc2.35",
+            "hostname": "system76-pc"
+        }
+    }
+}

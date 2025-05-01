@@ -252,8 +252,6 @@ def run_qualification_test_for_notebook(*, notebook_path: str, model: str):
         "grades": grades,
         "passing": passing,
         "metadata": {
-            "total_prompt_tokens": prompt_tokens,
-            "total_completion_tokens": completion_tokens,
             "model": model,
             "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
             "system_info": {"platform": platform.platform(), "hostname": platform.node()}
