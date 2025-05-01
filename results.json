@@ -1,0 +1,415 @@
+{
+  "results": [
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-gemini-2.0-flash-001-prompt-a-8",
+      "passing": true
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.0-flash-001-prompt-a-8",
+      "subfolder2": "2025-04-28-gemini-2.0-flash-001-prompt-d-8",
+      "selection": 1
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.0-flash-001-prompt-a-8",
+      "subfolder2": "2025-04-28-claude-3.7-sonnet-prompt-b-8",
+      "selection": 2
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.0-flash-001-prompt-a-8",
+      "subfolder2": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-d-8",
+      "selection": 2
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.0-flash-001-prompt-a-8",
+      "subfolder2": "2025-04-28-gemini-2.0-flash-001-prompt-b-8",
+      "selection": 1
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.0-flash-001-prompt-a-8",
+      "subfolder2": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-b-8",
+      "selection": 2
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.0-flash-001-prompt-a-8",
+      "subfolder2": "2025-04-28-claude-3.7-sonnet-prompt-a-8",
+      "selection": 2
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-gemini-2.0-flash-001-prompt-d-8",
+      "passing": true
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.0-flash-001-prompt-d-8",
+      "subfolder2": "2025-04-28-claude-3.7-sonnet-prompt-b-8",
+      "selection": 2
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.0-flash-001-prompt-d-8",
+      "subfolder2": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-d-8",
+      "selection": 2
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.0-flash-001-prompt-d-8",
+      "subfolder2": "2025-04-28-gemini-2.0-flash-001-prompt-b-8",
+      "selection": 2
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.0-flash-001-prompt-d-8",
+      "subfolder2": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-b-8",
+      "selection": 2
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.0-flash-001-prompt-d-8",
+      "subfolder2": "2025-04-28-claude-3.7-sonnet-prompt-a-8",
+      "selection": 2
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-claude-3.7-sonnet-prompt-b-8",
+      "passing": true
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-claude-3.7-sonnet-prompt-b-8",
+      "subfolder2": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-d-8",
+      "selection": 2
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-claude-3.7-sonnet-prompt-b-8",
+      "subfolder2": "2025-04-28-gemini-2.0-flash-001-prompt-b-8",
+      "selection": 1
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-claude-3.7-sonnet-prompt-b-8",
+      "subfolder2": "2025-04-28-claude-3.7-sonnet-prompt-a-8",
+      "selection": 2
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-d-8",
+      "passing": true
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-d-8",
+      "subfolder2": "2025-04-28-gemini-2.0-flash-001-prompt-b-8",
+      "selection": 1
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-d-8",
+      "subfolder2": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-b-8",
+      "selection": 2
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-d-8",
+      "subfolder2": "2025-04-28-claude-3.7-sonnet-prompt-a-8",
+      "selection": 2
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-gemini-2.0-flash-001-prompt-b-8",
+      "passing": true
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.0-flash-001-prompt-b-8",
+      "subfolder2": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-b-8",
+      "selection": 2
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.0-flash-001-prompt-b-8",
+      "subfolder2": "2025-04-28-claude-3.7-sonnet-prompt-a-8",
+      "selection": 2
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-a-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-b-8",
+      "passing": true
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-b-8",
+      "subfolder2": "2025-04-28-claude-3.7-sonnet-prompt-a-8",
+      "selection": 2
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-claude-3.7-sonnet-prompt-a-8",
+      "passing": true
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-gemini-2.0-flash-001-prompt-a-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-claude-3.5-sonnet-prompt-a-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-gemini-2.0-flash-001-prompt-d-8",
+      "passing": true
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-d-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-gemini-2.0-flash-001-prompt-b-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-a-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-b-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-claude-3.5-sonnet-prompt-b-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.0-flash-001",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-claude-3.7-sonnet-prompt-a-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-gemini-2.0-flash-001-prompt-a-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-gemini-2.0-flash-001-prompt-d-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-claude-3.7-sonnet-prompt-b-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-d-8",
+      "passing": true
+    },
+    {
+      "type": "comparison",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "001375",
+      "subfolder1": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-d-8",
+      "subfolder2": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-b-8",
+      "selection": 2
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-gemini-2.0-flash-001-prompt-b-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-a-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-b-8",
+      "passing": true
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "001375",
+      "subfolder": "2025-04-28-claude-3.7-sonnet-prompt-a-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-gemini-2.0-flash-001-prompt-a-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-claude-3.5-sonnet-prompt-a-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-gemini-2.0-flash-001-prompt-d-8",
+      "passing": true
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-d-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-gemini-2.0-flash-001-prompt-b-8",
+      "passing": true
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-a-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-gemini-2.5-pro-preview-03-25-prompt-b-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-claude-3.5-sonnet-prompt-b-8",
+      "passing": false
+    },
+    {
+      "type": "qualification_test",
+      "model": "gemini-2.5-pro-preview-03-25",
+      "dandiset_id": "000690",
+      "subfolder": "2025-04-28-claude-3.7-sonnet-prompt-a-8",
+      "passing": false
+    }
+  ],
+  "summary": {
+    "total_qualification_tests": 34,
+    "total_passing_qualification_tests": 12,
+    "total_comparison_tests": 21
+  }
+}
