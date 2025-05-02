@@ -209,5 +209,5 @@ with open(markdown_path, 'w') as f:
     f.write('| Notebook 1 | Notebook 2 | Selection |\n')
     f.write('|------------|------------|----------|\n')
     for subfolder1, subfolder2, selection in results:
-        json_path = f'{subfolder1}/comparisons/{subfolder2}/comparison.json'
+        json_path = f'{subfolder1}/comparisons/{subfolder2}/comparison_thinking.md'
         f.write(f'| {subfolder1} | {subfolder2} | [{selection}]({json_path}) |\n')
