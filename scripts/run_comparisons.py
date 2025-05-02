@@ -194,4 +194,14 @@ with open(ranking_json_fname, 'w') as f:
         ]
     }, f, indent=4)
 
-
+# Create comparisons.md
+print(f"\nWriting comparisons to markdown file...")
+markdown_path = f'{this_dir}/../reviews/{model_second_part}/dandisets/{dandiset_id}/comparisons.md'
+with open(markdown_path, 'w') as f:
+    f.write(f'# Comparisons for [DANDI:{dandiset_id}](https://neurosift.app/dandiset/{dandiset_id})\n\n')
+    f.write(f'Model: {model}\n\n')
+    f.write('| Notebook 1 | Notebook 2 | Selection |\n')
+    f.write('|------------|------------|----------|\n')
+    for subfolder1, subfolder2, selection in results:
+        json_path = f'{subfolder1}/comparisons/{subfolder2}/comparison.json'
+        f.write(f'| {subfolder1} | {subfolder2} | [{selection}]({json_path}) |\n')
