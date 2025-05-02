@@ -79,6 +79,12 @@ for idx, (subfolder1, subfolder2) in enumerate(pairs, 1):
             data = json.load(f)
             results.append((subfolder1, subfolder2, data['selection']))
 
+            # # just one off - this should be created at time of comparison
+            # thinking_path = f'{this_dir}/../reviews/{model_second_part}/dandisets/{dandiset_id}/{subfolder1}/comparisons/{subfolder2}/comparison_thinking.md'
+            # if not os.path.exists(thinking_path):
+            #     with open(thinking_path, 'w') as f:
+            #         f.write(data['thinking'])
+
 # Print summary after all processing is complete
 if results:
     print("\nSummary of comparison results:")

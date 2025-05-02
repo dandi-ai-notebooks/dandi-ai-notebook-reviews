@@ -189,6 +189,7 @@ def main():
     this_dir = Path(__file__).parent
     model_second_part = model.split("/")[1]
     comparison_result_path = f'{this_dir}/../reviews/{model_second_part}/dandisets/{dandiset_id}/{subfolder1_name}/comparisons/{subfolder2_name}/comparison.json'
+    comparison_result_thinking_path = f'{this_dir}/../reviews/{model_second_part}/dandisets/{dandiset_id}/{subfolder1_name}/comparisons/{subfolder2_name}/comparison_thinking.md'
     # make sure parent directory exists
     os.makedirs(os.path.dirname(comparison_result_path), exist_ok=True)
     if os.path.exists(comparison_result_path):
@@ -199,6 +200,9 @@ def main():
         result = run_comparison(model=model, dandiset_id=dandiset_id, subfolder1_name=subfolder1_name, subfolder2_name=subfolder2_name)
         with open(comparison_result_path, 'w') as f:
             json.dump(result, f, indent=4)
+        with open(comparison_result_thinking_path, 'w') as f:
+            f.write(result["thinking"])
+
     print("Thinking:")
     print(result["thinking"])
     print("")
