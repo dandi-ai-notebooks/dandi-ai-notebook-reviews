@@ -186,7 +186,7 @@ with open(ranking_json_fname, 'w') as f:
     json.dump({
         'ranked_notebooks': [
             {
-                'name': notebook,
+                'subfolder': notebook,
                 'wins': num_wins[notebook],
                 'losses': num_losses[notebook]
             }
