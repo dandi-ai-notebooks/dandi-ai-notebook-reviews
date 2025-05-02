@@ -204,7 +204,7 @@ with open(ranking_json_fname, 'w') as f:
 print(f"\nWriting comparisons to markdown file...")
 markdown_path = f'{this_dir}/../reviews/{model_second_part}/dandisets/{dandiset_id}/comparisons.md'
 with open(markdown_path, 'w') as f:
-    f.write(f'# Comparisons for [DANDI:{dandiset_id}](https://neurosift.app/dandiset/{dandiset_id})\n\n')
+    f.write(f'# Comparisons for DANDI:{dandiset_id}\n\n')
     f.write(f'Model: {model}\n\n')
     f.write('| Notebook 1 | Notebook 2 | Selection |\n')
     f.write('|------------|------------|----------|\n')

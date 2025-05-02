@@ -1,4 +1,4 @@
-# Comparisons for [DANDI:001375](https://neurosift.app/dandiset/001375)
+# Comparisons for DANDI:001375
 
 Model: anthropic/claude-3.7-sonnet
 
