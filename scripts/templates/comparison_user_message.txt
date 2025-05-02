@@ -14,7 +14,8 @@ Do not include any other text in your response.
 The criteria to judge the notebooks should be based on the following.
 
 The ideal notebook will show the user how to get started exploring the dandiset using Python. It should include the following elements:
-- A title that indicates the notebook is AI-generated and has not been fully verified.
+- A title that include the name of the Dandiset
+- A message that indicates the notebook is AI-generated and has not been fully verified.
 - An overview of the Dandiset, including a link to the Dandiset on the DANDI archive.
 - A summary of what the notebook will cover.
 - A list of required packages.
