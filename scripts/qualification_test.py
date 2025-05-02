@@ -292,7 +292,7 @@ def main():
     print("Image Descriptions:")
     print(result["image_descriptions"])
     print("")
-    print("Grades:")
+    print(f"Grades for {dandiset_id} / {subfolder_name}:")
     for grade in result["grades"]:
         print(f"Question {grade['question_id']}: {grade['grade']}")
         print(f"Thinking: {grade['thinking']}")

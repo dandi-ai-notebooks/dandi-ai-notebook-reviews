@@ -45,7 +45,7 @@ for folder_path in matching_folders:
         # Check results immediately after processing
         this_dir = os.path.dirname(os.path.abspath(__file__))
         model_second_part = model.split('/')[1]
-        json_path = f'{this_dir}/reviews/{model_second_part}/dandisets/{dandiset_id}/{subfolder}/qualification_test.json'
+        json_path = f'{this_dir}/../reviews/{model_second_part}/dandisets/{dandiset_id}/{subfolder}/qualification_test.json'
         if os.path.exists(json_path):
             with open(json_path, 'r') as f:
                 data = json.load(f)
@@ -53,7 +53,7 @@ for folder_path in matching_folders:
 
 # Print summary after all processing is complete
 if results:
-    print("\nSummary of qualification test results:")
+    print(f"\nSummary of qualification test results for model {model} and dandiset {dandiset_id}:")
     print("-" * 40)
     for subfolder, status in results.items():
         print(f"{subfolder}: {status}")

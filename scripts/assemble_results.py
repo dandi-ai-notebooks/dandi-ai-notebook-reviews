@@ -30,6 +30,18 @@ def process_comparison_test(file_path: str, rel_path: str) -> Dict:
         "selection": data.get("selection")
     }
 
+def process_rankings(file_path: str, rel_path: str) -> Dict:
+    """Extract rankings from rankings.json file"""
+    with open(file_path, 'r') as f:
+        data = json.load(f)
+    paths = rel_path.split('/')
+    return {
+        "type": "rankings",
+        "model": paths[0],
+        "dandiset_id": paths[2],
+        "notebooks": data.get("ranked_notebooks", [])
+    }
+
 def main():
     reviews_dir = Path("reviews")
     results = []
@@ -53,16 +65,21 @@ def main():
                 result = process_comparison_test(str(file_path), str(relative_path))
                 results.append(result)
 
+            elif file == "rankings.json":
+                result = process_rankings(str(file_path), str(relative_path))
+                results.append(result)
+
     # Write aggregated results
     output = {
-        "results": results,
-        "summary": {
-            "total_qualification_tests": len([r for r in results if r["type"] == "qualification_test"]),
-            "total_passing_qualification_tests": len([r for r in results if r["type"] == "qualification_test" and r["passing"]]),
-            "total_comparison_tests": len([r for r in results if r["type"] == "comparison"])
-        }
+        "results": results
     }
 
+    print(f"Total qualification tests: {len([r for r in results if r['type'] == 'qualification_test'])}")
+    print(f"Total passing qualification tests: {len([r for r in results if r['type'] == 'qualification_test' and r['passing']])}")
+    print(f"Total comparison tests: {len([r for r in results if r['type'] == 'comparison'])}")
+    print(f"Total rankings: {len([r for r in results if r['type'] == 'rankings'])}")
+
+    print(f"Writing results to results.json...")
     with open('results.json', 'w') as f:
         json.dump(output, f, indent=2)
 
